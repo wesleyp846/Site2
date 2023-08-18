@@ -14,7 +14,7 @@
 
     <section class="hero">
         <div class="box-img">
-            <img src="img/dotorasemfundocamada.webp">
+            <img class="responsiva" id="doutora" src="img/dotorasemfundocamada.webp">
         </div>
         <div class="box-txt">
             <span>MARQUE SUA CONSULTA</span>
@@ -22,7 +22,7 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur, commodi doloribus quasi saepe exercitationem recusandae in explicabo eius neque tempore pariatur enim id laborum dolores autem minus ipsum consequuntur.
             </p>
-            <a href="#" class="btn-hero">Marcar Consulta</a>
+            <a target="_blank" href=" https://wa.me/552199999999" class="btn-hero">Marcar Consulta</a>
         </div>
     </section>
 
@@ -39,7 +39,7 @@
             <h1>Especialidades 3</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore, commodi ab voluptatibus placeat explicabo nesciunt quod sunt facilis vero, magni amet necessitatibus iusto accusamus? Totam earum voluptatibus debitis expedita.</p>
         </div>
-        <a href="#" class="m-top btn-hero">Marcar Consulta</a>
+        <a target="_blank" href=" https://wa.me/552199999999" class="m-top btn-hero">Marcar Consulta</a>
     </section>
 
     <footer>
@@ -51,6 +51,17 @@
             <img width="100px"  src="img/whatstrans.png" alt="Contato Whatsapp">
         </a>
     </div>
+    <script>
+        const doutora = document.getElementById('doutora');
+        //Evento de quando o mouse estiver por cima
+        doutora.addEventListener('mouseover', function(){
+            doutora.src = "img/dotorasemfundocamada2.webp";
+        })
 
+        //Evento de quando o mouse estiver saindo de cima
+        doutora.addEventListener('mouseout', function(){
+            doutora.src = "img/dotorasemfundocamada.webp";
+        })
+    </script>
 </body>
 </html>
