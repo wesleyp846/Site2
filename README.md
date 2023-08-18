@@ -12,3 +12,8 @@
 ## Etapa de construção do código
 1. Primeiros passos no README
 2. Estrutura inicial no HTML
+3. Criado o Arquivo de CSS
+4. Escolha da imagem no Pexels e tratamento no remuve.bg, https://www.photopea.com/
+5. Terminado a estrutura do HTML e CSS
+6. Etapa de JavaScript
+7. Etapa de Responssividade
