@@ -28,3 +28,7 @@ o prejeto teria que ser todo contruido dentro da pasta `C:\xampp\htdocs`
 ## Nessa fase o projeto sofrerá divisão em Branch's
 1. `git fetch` para ver se ha atualização no repositório remoto
 2. `git status` para verificar alterações no repositório local
+3. 
+
+## Codificação da segunda etapa
+1. Criado o arquivo formulário e linkado no index por *marque sua consulta*
