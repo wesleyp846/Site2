@@ -20,15 +20,19 @@
 
 ## Fase de DB e Sever
 1. Primeiro foi instalado o XAMPP, onde trabalharemos com o mysql e com php
-2. como administrador no terminal navegamos até a pasta do xampp `C:\xampp\htdocs`
+2. Como administrador no terminal navegamos até a pasta do xampp `C:\xampp\htdocs`
 3. Comando `mklink /D meu_site C:\Users\avent\Desktop\Des_Web\Meu_projetos\Site2` onde foi criado um link para a pasta do projeto, caso contrário 
 o prejeto teria que ser todo contruido dentro da pasta `C:\xampp\htdocs`
 4. Iniciado o servidor atravez do console do XAMPP `Apache e MySql`
 
 ## Nessa fase o projeto sofrerá divisão em Branch's
-1. `git fetch` para ver se ha atualização no repositório remoto
-2. `git status` para verificar alterações no repositório local
-3. 
+1. `git fetch` Para ver se ha atualização no repositório remoto
+2. `git status` Para verificar alterações no repositório local
+3. `git branch` Para saber em que Branch estamos
+4. `git checkout -b <nome_da_nova_branch>` Estando na *Branch main* este comando cria uma nova branch com o *nome_da_nova_branch* que é cópia da branch *main*
+5. `git branch` Para saber verificar que já estamos na nova branch
+6. Quando necessário voltar para alguma branch é o comando `git checkout <nome_da_brench>`
+7. 
 
 ## Codificação da segunda etapa
 1. Criado o arquivo formulário e linkado no index por *marque sua consulta*
