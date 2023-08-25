@@ -32,10 +32,11 @@ o prejeto teria que ser todo contruido dentro da pasta `C:\xampp\htdocs`
 4. `git checkout -b <nome_da_nova_branch>` Estando na *Branch main* este comando cria uma nova branch com o *nome_da_nova_branch* que é cópia da branch *main*
 5. `git branch` Para saber verificar que já estamos na nova branch
 6. Quando necessário voltar para alguma branch é o comando `git checkout <nome_da_brench>`
-7. Após os primeiro commit na nova branch antes de fazer o primeiro push </br> `git push -u origin <nome_da_branch_sendo_criada>` isso criará também
-a nova branch no repositório remoto e só é necessário fazer uma unnica vez.
+7. Após os primeiro commit na nova branch antes de fazer o primeiro push 
+ </br> `git push -u origin <nome_da_branch_sendo_criada>` </br> 
+isso criará também a nova branch no repositório remoto e só é necessário fazer uma unica vez.
 8. Agora é `git push` normalmente
-9. Apartir desse momento diremos as branch's que serão atualizdas com `git push origin <nome_da_branch>`
+9.  Apartir desse momento diremos as branch's que serão atualizdas com `git push origin <nome_da_branch>`
 
 ## Codificação da segunda etapa
 1. Criado o arquivo formulário e linkado no index por *marque sua consulta*
