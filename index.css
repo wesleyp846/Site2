@@ -105,7 +105,7 @@ header h1{
 .especialidades{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-flow: wrap;
     width: 80%;
     margin-left: 10%;

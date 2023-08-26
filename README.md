@@ -48,4 +48,4 @@ isso criará também a nova branch no repositório remoto e só é necessário f
 2. Em ___Novo__ Criar novo banco de dados
 3. Criar __Tabela__ mensagens onde armazenará as informações do formulário com 6 colunas depois botão __salvar__
 4. ![Tabela](./img/Captura_redeme.png "criação da tabela")
-5. 
+5. concluida codificação inicial da chamada ao BD com o php
