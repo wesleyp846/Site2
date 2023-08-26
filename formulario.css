@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
 }
 
 form{
@@ -49,4 +50,15 @@ button{
 
 button:hover{
     background: rgb(18, 170, 18);
+}
+
+.mendb{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid rgb(224, 255, 153);
 }
