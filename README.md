@@ -42,3 +42,10 @@ isso criará também a nova branch no repositório remoto e só é necessário f
 1. Criado o arquivo formulário e linkado no index por *marque sua consulta*
 2. Codificando _formulario.html_ e _formulario.css_
 3. iniciando etapa de backend com o arquivo ___processar_dados.php__
+
+##DB
+1. No painel do XANPP, aniona o botão admin do MySql
+2. Em ___Novo__ Criar novo banco de dados
+3. Criar __Tabela__ mensagens onde armazenará as informações do formulário com 6 colunas depois botão __salvar__
+4. ![Tabela](./img/Captura_redeme.png "criação da tabela")
+5. 
