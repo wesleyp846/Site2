@@ -40,3 +40,5 @@ isso criará também a nova branch no repositório remoto e só é necessário f
 
 ## Codificação da segunda etapa
 1. Criado o arquivo formulário e linkado no index por *marque sua consulta*
+2. Codificando _formulario.html_ e _formulario.css_
+3. iniciando etapa de backend com o arquivo ___processar_dados.php__

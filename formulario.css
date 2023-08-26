@@ -1,0 +1,52 @@
+body{
+    width: 100vw; /*vai ocupar toda a largura da minha tela*/
+    height: 100vh;/*vai ocupar toda a altura da minha tela*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: #ccc;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+textarea{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /*Muda o curso para mãozinha no botão*/
+}
+
+button:hover{
+    background: rgb(18, 170, 18);
+}

@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="./formulario.css">
 </head>
 <body>
-    <h1>Aguardando codificação dos formulários</h1>
+    <form action="processar_dados.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" required>
+        <label for="email">e-mail:</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail aqui" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
