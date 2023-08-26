@@ -53,4 +53,4 @@ isso criará também a nova branch no repositório remoto e só é necessário f
 
 ## Etapa de juntar as branch's novamente
 1. primeiro vamos para a branch __main__ `git checkout main`
-2. Agora vamos pegar a brench que sera absorvida pela principal `git marge desenvolvimento`
+2. Agora vamos pegar a brench que sera absorvida pela principal `git merge desenvolvimento`
